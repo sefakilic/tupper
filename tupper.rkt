@@ -12,12 +12,13 @@
                                             (remainder (floor y) 17)))))
                        2))))
 
-(define width 1060)
-(define height 170)
+(define px-size 10)
+(define width (* 106 px-size))
+(define height (* 17 px-size))
 (define target (make-bitmap width height))
 (define dc (new bitmap-dc% [bitmap target]))
 (send dc set-brush "black" 'solid)
-(define px-size 10)
+
 
 (define (tupper)
   (letrec ([f (lambda (n) 
