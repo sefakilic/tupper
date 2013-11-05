@@ -1,0 +1,5 @@
+* Tupper's self-referential formula
+
+This repo contains Racket implementation of [[http://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula][Tupper's self-referential formula]].
+
+[[file:tupper.png]]
